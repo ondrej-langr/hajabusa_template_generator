@@ -97,7 +97,8 @@ function postProcess(options: CliOptions) {
    if (isNode) {
        shell.cd(options.tartgetPath);
        const result = shell.exec('yarn install');
-       if (result.code !== 0) {
+       const result2 = shell.exec('git init');
+       if (result.code !== 0 && result2.code !== 0) {
            return false;
        }
    }
