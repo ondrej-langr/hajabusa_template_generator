@@ -17,7 +17,6 @@
     "@types/inquirer": "^7.3.1",
     "@types/node": "^14.14.31",
     "@types/shelljs": "^0.8.8",
-    "ejs": "^3.1.6",
     "nodemon": "^2.0.7",
     "shelljs": "^0.8.4",
     "shx": "^0.3.3",
@@ -26,6 +25,7 @@
   },
   "dependencies": {
     "@types/ejs": "^3.0.6",
+    "ejs": "^3.1.6",
     "inquirer": "^8.0.0"
   }
 }
