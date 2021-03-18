@@ -1,0 +1,27 @@
+{
+  "name": "<%= projectName %>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "start": "yarn build && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.1",
+    "@prisma/client": "^2.19.0"
+  },
+  "devDependencies": {
+    "typescript": "4.2.3",
+    "@prisma/cli": "^2.19.0",
+    "@types/hapi__hapi": "^20.0.5",
+    "@types/node": "^14.14.35",
+    "prisma": "^2.19.0",
+    "ts-node": "^9.1.1",
+    "tslint": "5.12.1"
+  }
+}
