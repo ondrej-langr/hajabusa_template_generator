@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "app",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "types": [],
+    "typeRoots": ["./types"]
+  },
+  "exclude": [
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/.prisma/client/index.d.ts"
+  ],
+  "lib": ["es2015"],
+}

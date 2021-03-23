@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts",
     "build": "tsc && shx rm -rf dist/templates && shx cp -r src/templates dist"
   },
   "bin": {
@@ -21,11 +21,11 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "nodemon": "^2.0.7",
-    "shx": "^0.3.3",
     "@types/ejs": "^3.0.6",
     "ejs": "^3.1.6",
     "inquirer": "^8.0.0",
-    "shelljs": "^0.8.4"
+    "nodemon": "^2.0.7",
+    "shelljs": "^0.8.4",
+    "shx": "^0.3.3"
   }
 }
